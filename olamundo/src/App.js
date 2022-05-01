@@ -1,4 +1,5 @@
 import './App.css';
+import PrimeiroComponente from './components/PrimeiroComponente';
 
 function App() {
   const name = "Rubem"
@@ -18,6 +19,7 @@ function App() {
       <p>Ola! Meu nome é {name}</p>
       <p>Data: {dia}/{mes + 1}/{ano}</p>
       <p>Eu faço {idade()} anos de idade esse ano.</p>
+      <PrimeiroComponente />
     </div>
   );
 }
