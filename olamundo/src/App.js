@@ -1,6 +1,7 @@
 import './App.css';
 import PrimeiroComponente from './components/PrimeiroComponente';
 import SayMyName from './components/SayMyName';
+import Pessoa from './components/Pessoa';
 
 function App() {
   const name = "Rubem"
@@ -22,6 +23,7 @@ function App() {
       <p>Eu faço {idade()} anos de idade esse ano.</p>
       <PrimeiroComponente />
       <SayMyName nome= "Cândido"/>
+      <Pessoa nome={"Rubão"} idade={38} profissao={"Professor"} roby={"ciclismo"}/>
     </div>
   );
 }
