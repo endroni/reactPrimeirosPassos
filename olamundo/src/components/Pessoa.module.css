@@ -1,0 +1,14 @@
+/* CSS module 
+    CSS componentizado */
+
+    
+.pessoaContainer {
+    background-color: rgb(14, 13, 13);
+    border: 1px solid #111;
+}
+
+.pessoaContent {
+    color: #fff;
+    background-color: #333;
+    margin: 0;
+}
